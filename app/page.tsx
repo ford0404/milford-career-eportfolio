@@ -327,10 +327,12 @@ export default function MilfordCareerEPortfolio() {
                                 <p className="text-sm font-semibold text-neutral-500">{item.date}</p>
                                 <h3 className="mt-2 text-xl font-semibold">{item.title}</h3>
                                 <p className="mt-1 text-sm text-neutral-700">{item.org}</p>
-                                <ul className="mt-4 space-y-2 text-sm leading-7 text-neutral-700">
+                                // app/page.tsx
+                                <ul className="mt-4 space-y-3 text-sm leading-7 text-neutral-700">
                                     {item.bullets.map((bullet) => (
-                                        <li key={bullet} className="text-justify">
-                                            • {bullet}
+                                        <li key={bullet} className="relative pl-4 leading-7">
+                                            <span className="absolute left-0 top-0 text-neutral-900">•</span>
+                                            {bullet}
                                         </li>
                                     ))}
                                 </ul>
