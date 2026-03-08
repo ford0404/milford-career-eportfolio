@@ -266,11 +266,10 @@ export default function MilfordCareerEPortfolio() {
                                     {project.description}
                                 </p>
 
-                                <ul className="mt-5 space-y-2 text-sm text-neutral-700">
+                                <ul className="mt-5 list-disc space-y-3 pl-5 text-sm leading-7 text-neutral-700 marker:text-neutral-900">
                                     {project.bullets.map((bullet) => (
-                                        <li key={bullet} className="flex gap-3">
-                                            <span className="mt-2 h-2 w-2 rounded-full bg-neutral-900" />
-                                            <span className="leading-7 text-left md:text-justify">{bullet}</span>
+                                        <li key={bullet}>
+                                            <p className="leading-7 text-left md:text-justify">{bullet}</p>
                                         </li>
                                     ))}
                                 </ul>
