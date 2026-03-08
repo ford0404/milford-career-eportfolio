@@ -157,7 +157,7 @@ export default function MilfordCareerEPortfolio() {
                             <div className="mt-8 flex flex-wrap gap-2 text-sm text-neutral-600">
                                 <span className="rounded-full bg-neutral-100 px-3 py-1">San Juan City, Philippines</span>
                                 <span className="rounded-full bg-neutral-100 px-3 py-1">milfordemersonyao@gmail.com</span>
-                                <span className="rounded-full bg-neutral-100 px-3 py-1">+63 970 919 0999</span>
+                                <span className="rounded-full bg-neutral-100 px-3 py-1">+63 970 572 2999</span>
                             </div>
                         </div>
 
