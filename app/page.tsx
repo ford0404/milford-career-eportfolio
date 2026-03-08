@@ -131,7 +131,7 @@ export default function MilfordCareerEPortfolio() {
                             <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
                                 Milford Emerson S. Yao
                             </h1>
-                            <p className="mt-5 max-w-2xl text-left text-base leading-7 text-neutral-700 md:text-justify md:text-lg">
+                            <p className="mt-5 max-w-2xl text-justify text-base leading-7 text-neutral-700 md:text-lg">
                                 I am a BS Computer Engineering student from De La Salle University Manila who is interested in building practical digital solutions, improving user experience, and growing as a future technology professional. I enjoy projects that combine technical work, business thinking, and real-world usefulness.
                             </p>
 
@@ -163,7 +163,7 @@ export default function MilfordCareerEPortfolio() {
 
                         <div className="rounded-3xl border border-neutral-200 bg-neutral-50 p-6 shadow-sm">
                             <h2 className="text-lg font-semibold">Career Direction</h2>
-                            <p className="mt-3 text-left text-sm leading-7 text-neutral-700 md:text-justify">
+                            <p className="mt-3 text-justify text-sm leading-7 text-neutral-700">
                                 I want to build a strong foundation in technology through projects that improve processes, solve clear problems, and create useful digital experiences. My current interests include web development, artificial intelligence, cybersecurity, and UI/UX design.
                             </p>
                             <div className="mt-6 grid grid-cols-2 gap-3 text-sm">
@@ -193,7 +193,7 @@ export default function MilfordCareerEPortfolio() {
                 <div className="grid gap-6 md:grid-cols-2">
                     <div className="rounded-3xl bg-white p-7 shadow-sm ring-1 ring-neutral-200">
                         <h2 className="text-2xl font-semibold">About Me</h2>
-                        <p className="mt-4 text-left text-sm leading-7 text-neutral-700 md:text-justify">
+                        <p className="mt-4 text-justify text-sm leading-7 text-neutral-700">
                             My academic and personal experiences have helped me develop both technical and interpersonal skills. As a Computer Engineering student, I am learning how to connect technology with real needs. I value work that is organized, useful, and well thought out, and I try to bring those qualities into every project and responsibility I take on.
                         </p>
                     </div>
@@ -262,14 +262,14 @@ export default function MilfordCareerEPortfolio() {
 
                                 <h3 className="mt-2 text-2xl font-semibold">{project.title}</h3>
 
-                                <p className="mt-4 max-w-4xl text-left text-sm leading-7 text-neutral-700 md:text-justify">
+                                <p className="mt-4 max-w-4xl text-justify text-sm leading-7 text-neutral-700">
                                     {project.description}
                                 </p>
 
                                 <ul className="mt-5 list-disc space-y-3 pl-5 text-sm leading-7 text-neutral-700 marker:text-neutral-900">
                                     {project.bullets.map((bullet) => (
                                         <li key={bullet}>
-                                            <p className="leading-7 text-left md:text-justify">{bullet}</p>
+                                            <p className="text-justify leading-7">{bullet}</p>
                                         </li>
                                     ))}
                                 </ul>
@@ -301,7 +301,7 @@ export default function MilfordCareerEPortfolio() {
                                                 <h4 className="text-lg font-semibold text-neutral-900">
                                                     {shot.title}
                                                 </h4>
-                                                <p className="mt-3 text-left text-sm leading-7 text-neutral-700 md:text-justify">
+                                                <p className="mt-3 text-justify text-sm leading-7 text-neutral-700">
                                                     {shot.caption}
                                                 </p>
                                             </div>
@@ -329,7 +329,7 @@ export default function MilfordCareerEPortfolio() {
                                 <ul className="mt-4 list-disc space-y-3 pl-5 text-sm leading-7 text-neutral-700 marker:text-neutral-900">
                                     {item.bullets.map((bullet) => (
                                         <li key={bullet}>
-                                            <p className="leading-7 text-left md:text-justify">{bullet}</p>
+                                            <p className="text-justify leading-7">{bullet}</p>
                                         </li>
                                     ))}
                                 </ul>
